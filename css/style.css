@@ -22,6 +22,8 @@ h1{
 }
 h3{    
     font-family: 'Lobster', cursive;
+    font-size: 48px;
+    color: #FF5959;
 }
 h4{
     /* footer font */
@@ -303,4 +305,12 @@ hr{
 
     
 
+}
+#footerid{
+    margin-top: 50px;
+    padding: 80px;
+    background-color: black;
+}
+.container .text-ceter .f-text{
+color:#fff;
 }
