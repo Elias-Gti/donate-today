@@ -10,6 +10,9 @@
     width: 1200px;
    
 }
+.text-ceter{
+    text-align: center;
+}
 
 /* font style  */
 h1{
@@ -26,6 +29,7 @@ h4{
 }
 p{ 
     font-family: 'Arima', cursive;
+    font-size: 18px;
     /* font-family: 'Hind Siliguri', sans-serif;    */
 
 }
@@ -120,3 +124,85 @@ p{
     background-color: transparent;
     border-bottom: 2px solid #707070;
 }
+.text-ceter p{
+    max-width: 600px;
+    margin: 0 auto;   
+    color: black;
+    margin-top: 20px;
+}
+.card-aria{
+    display: flex;
+
+}
+.card{
+
+    background-color: #4f9da62c;
+    max-width: 380px;
+    padding: 10px;
+    margin: 30px 10px;
+    border-radius: 5px;
+
+    
+}
+.card1{
+
+    background-color: #ff595928;
+    max-width: 380px;
+    padding: 10px;
+    margin: 30px 10px;
+    border-radius: 5px;
+
+    
+}
+.card2{
+
+    background-color: #a67d4f2c;
+    max-width: 380px;
+    padding: 10px;
+    margin: 30px 10px;
+    border-radius: 5px;
+
+    
+}
+/* ----------------- */
+.card .card-item img{
+    padding: 20px;
+    
+}
+.card .card-item h4{
+    padding: 10px 20px;
+    
+}
+.card .card-item p{
+    padding: 10px 20px;
+    
+}
+
+/* ---------------------- */
+.card1 .card-item img{
+    padding: 20px;
+    
+}
+.card1 .card-item h4{
+    padding: 10px 20px;
+    
+}
+.card1 .card-item p{
+    padding: 10px 20px;
+    
+}
+/* ---------------------- */
+
+.card2 .card-item img{
+    padding: 20px;
+    
+}
+.card2 .card-item h4{
+    padding: 10px 20px;
+    
+}
+.card2 .card-item p{
+    padding: 10px 20px;
+    
+}
+/* ---------------------- */
