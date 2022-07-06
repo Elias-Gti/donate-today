@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Hind+Siliguri:wght@700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Arima:wght@200&family=Hind+Siliguri:wght@700&family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+   
+}
+
+/* font style  */
+h1{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 45px;
+    font-style: bold;
+}
+h3{    
+    font-family: 'Lobster', cursive;
+}
+h4{
+    /* footer font */
+    font-family: 'Alegreya Sans', sans-serif;
+}
+p{ 
+    font-family: 'Arima', cursive;
+    /* font-family: 'Hind Siliguri', sans-serif;    */
+
+}
+
+/* button style */
+.btn{
+    
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 40px;    
+    background-color: tomato;
+    border-radius: 3px;    
+   
+}
+
+
+/* Head Banner section  */
+
+#top-banner{
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+    background-position: center;    
+    background-image: url(../img/donation13.jpg);
+    background-color: rgba(0, 0, 0, 0.425); /* use rgba for fine adjustments */
+    background-blend-mode: multiply;
+}
+.head-text{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.head-text p{
+    padding: 30px 0;   
+    color: rgb(231, 231, 231);
+    
+}
+
+#donate-today {
+    text-align: center;
+    margin: 70px 0px;
+}
+.donate-text p{
+    max-width: 600px;
+    margin: 0 auto;   
+    color: black;
+    margin-top: 20px;
+    
+}
+.pricing{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 800px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+   
+}
+
+.pricing .p-box{
+    padding: 30px;
+    font-size: 20px;
+    margin: 2px;
+    background-color: rgb(240, 239, 239);
+    margin: 0 auto;
+    border-radius: 5px;
+    
+
+    
+}
+.pricing .p-box h1{
+    font-size: 30px;
+    color: #707070;
+}
+.pricing .box{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    
+}
+.f-tk{
+    width: 600px;
+    height: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border: none;
+    font-size: 20px;
+    color: #707070;
+    text-align: center;
+    background-color: transparent;
+    border-bottom: 2px solid #707070;
+}
